@@ -81,9 +81,9 @@ function render() {
     var itemView = $("<li></li>")
       .append(title)
       .attr("class", "item-watchlist");
+      $("#section-watchlist ul").append(itemView);
       // TODO 3 (DONE)
       // give itemView a class attribute of "item-watchlist"
-      itemView.attr("class=item-watchlist");
 
 
   });
